@@ -76,7 +76,6 @@ const BucketObject: FC<Props> = ({ object, bucketId }) => {
         },
       });
 
-      console.log('download Url', response);
       //@ts-ignore
       setDownloadUrl(response.payload);
     } catch (error) {

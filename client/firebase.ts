@@ -10,6 +10,15 @@ const firebaseConfig = {
   appId: '1:681921132678:web:c426719bc41552d5ac3907',
 };
 
+// const firebaseConfig = {
+//   apiKey: 'Your api key',
+//   authDomain: 'Your authDomain',
+//   projectId: 'Your projectId',
+//   storageBucket: 'Your storageBucket',
+//   messagingSenderId: 'Your messagingSenderId',
+//   appId: 'You',
+// };
+
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 // Initialize Firebase Authentication and get a reference to the service
